@@ -67,7 +67,7 @@ header {
 /* Main article */
 .destination-info {
   max-width: 800px;
-  margin: 5rem auto 2rem auto;
+  margin: 5rem auto 2rem auto; /* Center section, large margin between it and hero */
   padding: 0 1rem;
 }
 
@@ -95,6 +95,6 @@ header {
 }
 
 .price .highlight {
-  color: #b46504;
+  color: #b46504; /* Helps the price pop a little */
   font-weight: bold;
 }
