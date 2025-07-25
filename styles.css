@@ -98,3 +98,12 @@ header {
   color: #b46504; /* Helps the price pop a little */
   font-weight: bold;
 }
+
+/* Footer */
+footer {
+  margin-top: 3rem;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.85rem;
+  color: #555;
+}
