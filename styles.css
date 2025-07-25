@@ -14,15 +14,29 @@ body {
 }
 
 header {
-  height: 15vh; /* Takes up 15% of viewport height */
   background-color: #fdf6e3; /* Sandy colour/desert vibes */
   padding: 1rem 2rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.navbar {
+  display: flex; /* Places elements beside each other rather than stacking */
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo img {
+  display: block;
+}
+
+.navbar span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 /* Hero section container */
 .hero {
-  height: 85vh; /* Takes up 85% of viewport height, totalling 100% with header */
+  height: 85vh; /* Takes up 85% of viewport height */
   overflow: hidden;
   position: relative; 
 }
