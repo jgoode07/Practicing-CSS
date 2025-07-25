@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif; /* Neutral sans-serif font */
+  font-family: "Segoe UI", sans-serif; /* Neutral sans-serif font */
   line-height: 1.6; /* Better readability */
   background-color: #fffaf3; /* Sandy theme */
   color: #333;
@@ -34,11 +34,23 @@ header {
   font-weight: bold;
 }
 
+.contact-icons {
+  display: flex;
+  margin-left: auto;
+  gap: 5rem;
+  font-size: 2rem;
+}
+
+.contact-icons a {
+  color: #333;
+  text-decoration: none;
+}
+
 /* Hero section container */
 .hero {
   height: 90vh; /* Takes up 85% of viewport height */
   overflow: hidden;
-  position: relative; 
+  position: relative;
 }
 
 /* Hero image */
@@ -54,7 +66,12 @@ header {
   bottom: 20%;
   left: 10%;
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.5); /* Translucent background (see background through) */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Translucent background (see background through) */
   padding: 1rem 2rem;
   border-radius: 8px;
 }
