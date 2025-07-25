@@ -63,3 +63,15 @@ header {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
 }
+
+/* Main article */
+.destination-info {
+  max-width: 800px;
+  margin: 5rem auto 2rem auto;
+  padding: 0 1rem;
+}
+
+.destination-info h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
