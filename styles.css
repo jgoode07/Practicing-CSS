@@ -75,3 +75,26 @@ header {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
+
+/* Testimonial */
+.testimonial {
+  background-color: #f3f3f3;
+  padding: 1.5rem;
+  margin: 2rem auto;
+  max-width: 700px;
+  text-align: center;
+  font-style: italic;
+  border-left: 5px solid #ccc;
+}
+
+/* Price section */
+.price {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.price .highlight {
+  color: #b46504;
+  font-weight: bold;
+}
