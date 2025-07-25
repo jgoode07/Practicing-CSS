@@ -36,7 +36,7 @@ header {
 
 /* Hero section container */
 .hero {
-  height: 85vh; /* Takes up 85% of viewport height */
+  height: 90vh; /* Takes up 85% of viewport height */
   overflow: hidden;
   position: relative; 
 }
@@ -47,4 +47,19 @@ header {
   height: 100%;
   object-fit: cover; /* Make sure hero covers the whole container */
   display: block;
+}
+
+.hero-text {
+  position: absolute; /* Positions this element inside the nearest parent with position: relative */
+  bottom: 20%;
+  left: 10%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5); /* Translucent background (see background through) */
+  padding: 1rem 2rem;
+  border-radius: 8px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
 }
