@@ -14,36 +14,62 @@ body {
 }
 
 header {
-  background-color: #fefbf2; /* Sandy colour/desert vibes */
+  background-color: #fffefc;
   padding: 1rem 2rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.navbar {
-  display: flex; /* Places elements beside each other rather than stacking */
   align-items: center;
   gap: 1rem;
 }
 
-.logo img {
-  display: block;
+.navbar {
+  display: flex; /* Places elements beside each other rather than stacking */
+  justify-content: space-between; /* spreads left, middle, right */
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-and-name {
+  color: #444;
+  display: flex;
+  align-items: center; /* Aligns icon and text vertically */
+  gap: 0.5rem; /* Optional: adds spacing between icon and text */
 }
 
 .navbar span {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #444;
+  font-size: 1.25rem;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #b46504;
 }
 
 .contact-icons {
   display: flex;
-  margin-left: auto;
-  gap: 5rem;
-  font-size: 2rem;
+  margin-left: 1rem; /* Small left margin for smaller screens */
+  gap: 3rem; /* Big gap between icons */
+  font-size: 1.5rem;
 }
 
 .contact-icons a {
-  color: #333;
+  color: #444;
   text-decoration: none;
+}
+
+.contact-icons a:hover {
+  color: #b46504;
 }
 
 /* Hero section container */

@@ -22,16 +22,20 @@
   <body>
     <header>
       <nav class="navbar">
-        <div class="logo">
-          <!-- Temp placeholder icon -->
+        <div class="logo-and-name">
           <img
             src="icons/pyramid.svg"
             alt="Cairo Travel Co. Logo"
             width="40"
             height="40"
           />
+          <span><em>Explore</em> Cairo</span>
         </div>
-        <span><em>Explore</em> Cairo</span>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#highlights">Highlights</a>
+          <a href="#pricing">Pricing</a>
+        </div>
         <div class="contact-icons">
           <a href="mailto:info@cairotravel.com" title="Email us">
             <i class="fas fa-envelope"></i>
@@ -54,7 +58,7 @@
           <a href="booking.html" class="cta-button">Start Planning</a>
         </div>
       </section>
-      <article class="destination-info">
+      <article id="about" class="destination-info">
         <h2>Why Visit Cairo?</h2>
         <p>
           Cairo is a vibrant city steeped in over a thousand years of history.
@@ -78,7 +82,7 @@
           hospitality that turns every traveller into a storyteller.
         </p>
       </article>
-      <section class="cards">
+      <section id="highlights" class="cards">
         <a href="sphinx.html" class="card">
           <!-- Opens link - link doesn't go anywhere -->
           <img src="img/sphinx-night-opt.jpg" alt="The Sphinx at sunset" />
@@ -109,7 +113,7 @@
           </em>
         </blockquote>
       </section>
-      <section class="price">
+      <section id="pricing" class="price">
         <p>
           <strong
             >Starting at just <span class="highlight">$1,499 CAD</span> for 7
