@@ -124,6 +124,11 @@ header {
   background-color: #fff;
   border-radius: 8px;
   overflow: hidden; /* Prevents content from spilling outside the card */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Subtle card shadow */
+  text-align: center;
+  text-decoration: none; /* Removes underline */
+  color: inherit; /* Keeps text colour consistent */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; 
   max-width: 300px;
 }
 
