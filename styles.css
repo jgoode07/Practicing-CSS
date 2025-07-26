@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  background-color: #fdf6e3; /* Sandy colour/desert vibes */
+  background-color: #fefbf2; /* Sandy colour/desert vibes */
   padding: 1rem 2rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -88,13 +88,21 @@ header {
   padding: 0.6rem 1.2rem;
   background-color: #e07b36;
   color: #fff;
+  text-decoration: none;
   font-weight: bold;
   border-radius: 8px; /* Matches background corner radius */
   transition: background-color 0.3s ease; /* Gradual transistion */
 }
 
 .cta-button:hover {
-  background-color: #be5601;
+  background-color: #b46504;
+}
+
+/* Bottom CTA */
+.cta-button.bottom-cta {
+  display: block; /* Places button below text, unlike hero CTA */
+  width: fit-content;
+  margin: 1rem auto 0 auto; /* Centers the button */
 }
 
 /* Main article */
@@ -111,12 +119,11 @@ header {
 
 /* Cards */
 .cards {
-  display: flex; 
+  display: flex;
   justify-content: center;
   gap: 2rem; /* Adds space between cards */
   padding: 2rem 1rem;
   flex-wrap: wrap; /* Makes layout responsive */
-
 }
 
 .card {
@@ -128,7 +135,7 @@ header {
   text-align: center;
   text-decoration: none; /* Removes underline */
   color: inherit; /* Keeps text colour consistent */
-  transition: transform 0.2s ease, box-shadow 0.2s ease; 
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
   max-width: 300px;
 }
 
@@ -155,7 +162,7 @@ header {
 
 /* Testimonial */
 .testimonial {
-  background-color: #fffaf3; /* Sandy theme */;
+  background-color: #fffaf3; /* Sandy theme */
   padding: 1.5rem;
   margin: 2rem auto;
   max-width: 700px;
