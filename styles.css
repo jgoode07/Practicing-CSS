@@ -191,12 +191,19 @@ header {
 /* Testimonial */
 .testimonial {
   background-color: #fffaf3; /* Sandy theme */
-  padding: 1.5rem;
+  padding: 1.5rem 1.5rem 1rem 1.5rem; /* Slightly less padding on bottom to balance the testimonial section */
   margin: 2rem auto;
   max-width: 700px;
   text-align: center;
   font-style: italic;
   border-left: 5px solid #ccc;
+}
+
+.quote-author {
+  font-size: 0.9rem;
+  color: #555;
+  text-align: right;
+  font-style: normal; /* Remove italics */
 }
 
 /* Price section */
@@ -218,4 +225,21 @@ footer {
   padding: 1rem;
   font-size: 0.85rem;
   color: #555;
+}
+
+.social-icons {
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+  color: #444;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #b46504; /* Sticking with same colour theme */
 }
