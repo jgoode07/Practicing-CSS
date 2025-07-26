@@ -15,6 +15,8 @@ body {
 
 header {
   background-color: #fffefc;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
   padding: 1rem 2rem;
   align-items: center;
   gap: 1rem;
@@ -28,7 +30,7 @@ header {
 }
 
 .logo-and-name {
-  color: #444;
+  color: #333;
   display: flex;
   align-items: center; /* Aligns icon and text vertically */
   gap: 0.5rem; /* Optional: adds spacing between icon and text */
@@ -42,7 +44,7 @@ header {
 .nav-links {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 4rem; /* would use media queries for mobile-first and responsive layouts, this gap breaks the flow at smaller screen sizes */
 }
 
 .nav-links a {
