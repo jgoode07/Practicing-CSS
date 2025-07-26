@@ -68,6 +68,7 @@ header {
 .contact-icons a {
   color: #444;
   text-decoration: none;
+  transition: color 0.3s;
 }
 
 .contact-icons a:hover {
